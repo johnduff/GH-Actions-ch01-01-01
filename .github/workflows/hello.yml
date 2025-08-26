@@ -1,9 +1,8 @@
 name: hello
 on: [push]
 jobs:
-  build:
+  say-hello:
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v1
     - name: Run a one-line script
